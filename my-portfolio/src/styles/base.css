@@ -1,0 +1,79 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-bg: #0b0f1a;
+    --color-surface: #131a2b;
+    --color-surface-2: #1b2438;
+    --color-border: #28324a;
+    --color-accent: #fbbf24;
+    --color-accent-2: #f0932f;
+    --color-accent-contrast: #0b0f1a;
+    --color-text: #f5f7fa;
+    --color-text-muted: #9aa5b8;
+
+    --badge-amber:#fbbf24;
+    --badge-orange: #f0932f;
+    --badge-sky:#38bdf8;
+    --badge-indigo:#818cf8;
+    --font-en:'Space Grotesk',sans-serif;
+    --font-ja:'Noto Sans JP',sans-serif;
+    --radius:12px;
+    --transition: 0.3s ease;
+}
+
+[data-theme="light"]{
+    --color-bg: #f8f9fc;
+    --color-surface: #ffffff;
+    --color-surface-2: #eceff5;
+    --color-border: #e2e5ec;
+    
+    
+  --color-accent: #b45309;
+  --color-accent-2: #c2410c;
+  --color-accent-contrast: #ffffff;
+  --color-text: #12182b;
+  --color-text-muted: #5b6478;
+  --badge-amber: #b45309;
+  --badge-orange: #c2410c;
+  --badge-sky: #0369a1;
+  --badge-indigo: #4338ca;
+}
+
+
+[data-theme="light"] .header {
+  background: rgba(248, 249, 252, 0.88);
+}
+
+
+html {
+  scroll-behavior: smooth; /* アンカーリンクをなめらかにスクロールする */
+}
+
+
+body {
+  background-color: var(--color-bg);   /* 背景色をCSS変数から取得 */
+  color: var(--color-text);            /* 文字色をCSS変数から取得 */
+  font-family: var(--font-ja);         /* フォントをCSS変数から取得 */
+  line-height: 1.7;                    /* 行間を広めに取り読みやすくする */
+  -webkit-font-smoothing: antialiased; /* macOSでフォントをなめらかに描画する */
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: opacity var(--transition);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+
+img {
+  max-width: 100%; /* 親要素からはみ出さないようにする */
+  display: block;  /* inline要素のデフォルトの下余白をなくす */
+}
