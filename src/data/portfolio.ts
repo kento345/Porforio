@@ -90,7 +90,7 @@ export const profile: Profile ={
     graduationYear: "2028年3月卒業見込み",
     bio: "心配性な性格でゲーム制作を行うとき。\nアクションを一つ作ってもほかにも方法がなのかを探して何個か作り、納得が行くものを使用して調べて作ったときは分かるまで何度も見返して理解しようとする姿勢が強みです。",
     motto: "「塵も積もれば山となる」",
-    avatar: "",
+    avatar: "images/avater.jpg",
     links: {
         github: "https://github.com/",
         twitter: null,
