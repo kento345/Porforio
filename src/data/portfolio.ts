@@ -84,12 +84,12 @@ export interface TimelineItem{
 export const profile: Profile ={
     name: "南部健人",
     nameEn: "Kento Nambu",
-    role: "",
+    role: "プログラマー",
     school: "京都デザイン＆テクノロジー専門学校",
     department: "スーパーゲームクリエイター専攻",
     graduationYear: "2028年3月卒業見込み",
-    bio: "",
-    motto: "",
+    bio: "心配性な性格でゲーム制作を行うとき。\nアクションを一つ作ってもほかにも方法がなのかを探して何個か作り、納得が行くものを使用して調べて作ったときは分かるまで何度も見返して理解しようとする姿勢が強みです。",
+    motto: "「塵も積もれば山となる」",
     avatar: "",
     links: {
         github: "https://github.com/",
@@ -195,8 +195,8 @@ export const gameJams: GameJam[] = [
 
 export const certifications: Certification[] =[
     {
-        name: "",
-        date: "",
+        name: "MOS Excel",
+        date: "2025年2月",
         category: "",
         score: "",
         status: "取得済み"
