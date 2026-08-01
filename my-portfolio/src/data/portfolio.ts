@@ -61,7 +61,7 @@ export interface GameJam{
     platform:string//プラットフォーム
     role:string//担当箇所
     team:string//チーム情報
-    result:string//結果
+    result:string | null//結果
     url:string | null//URL
     reflection:string//学び
 }
@@ -120,53 +120,75 @@ export const works:Work[] =[
         description: "",
         tags: ['Unity','C#'],
         platform: ['Windows'],
-        period: "",
-        team: "",
+        period: "2024年10月~2025年2月",
+        team: "チーム13名(プランナー３,プログラマー5,デザイナー5)",
         role: "プログラマー",
-        github: "",
+        github: "https://github.com/kento345/Farst-Goudou",
         link: "",
         venues: [{name:"",date:''}],
-        techPoints: null,
-        desigNotes: null,
+        techPoints: "・TextMeshProを使って日本語表記\n・Buttonをアイコンにして押すとTextに説明表示",
+        desigNotes: "・アイコンをButoonで使用",
         implementationTheme: null,
-        troublesooting: null,
+        troublesooting: "Playerが取得したアイテムとインベントリー同期-> Playerのアイテム取得も一緒に作る\n 料理作成if分で何パターンも作った->Swich分などで作る",
         performance: null
     },
     {
         id: 2,
         title: "喫茶ぱずふれっくす",
-        genre: "",
-        category: "",
+        genre: "3Dパズルアクション",
+        category: "game",
+        thumbail: "",
+        sceenshots: [],
+        description: "反射させてプレイヤーをゴールに飛ばす",
+        tags: ['Unity','C#'],
+        platform: ['Windows'],
+        period: "2025年5月～7月",
+        team: "チーム11名(プランナー2,プログラマー4,デザイナー5)",
+        role: "プログラマー",
+        github: "https://github.com/Momiji25315/pazuhurekkusu.git",
+        link: "",
+        venues: [{name:"",date:''}],
+        techPoints: "・Rayを使ってオブジェクトをtつかみ落とす",
+        desigNotes: "・PlayerInputSystemを使用してPlayer操作",
+        implementationTheme: null,
+        troublesooting: "・正方形じゃないオブジェクトに子供オブジェクトを付けると子供オブジェクトを回転させたときに伸びる-> 空オブジェクトを親オブジェクトにしてやる",
+        performance: null
+    },
+    {
+        id: 3,
+        title: "RUMBULE TUMBULE",
+        genre: "3Dアクション",
+        category: "game",
         thumbail: "",
         sceenshots: [],
         description: "",
-        tags: [],
-        platform: [],
-        period: "",
-        team: "",
-        role: "",
-        github: "",
+        tags: ["Unity","C#"],
+        platform: ["Windows"],
+        period: "2025年10月～2026年製作中",
+        team: "チーム10名(プランナー,２プログラマー３,デザイナー5)",
+        role: "プログラマー",
+        github: "https://ktc-git.kitsune-cs.dev/kento/RumbuleTumbule",
         link: "",
-        venues: [{name:"",date:''}],
-        techPoints: null,
-        desigNotes: null,
+        venues: [],
+        techPoints: "InputSystemを使用してPlayer参加を作成Colliderを使用して攻撃範囲を限定する",
+        desigNotes: "・PlayeerのScriptをBOTでも使用",
         implementationTheme: null,
-        troublesooting: null,
+        troublesooting: "・参加したPlayerの識別->InputSystemにInputSystemIndexで識別させる",
         performance: null
     }
 ]
 
 export const gameJams: GameJam[] = [
     {
-        name: "",
+        name: "BitSummit",
         date: "",
         them: "",
-        description: "",
-        platform: "",
-        role: "",
-        team: "",
-        result: "",
-        url: null,
+        description: "3Dパズルアクション,反射させてプレイヤーをゴールに飛ばす",
+        platform: "Windows",
+        role: "プログラマー(オブジェクトの移動)",
+        team: "チーム11名(プランナー2,プログラマー4,デザイナー5)",
+        result: null,
+        url: "https://github.com/Momiji25315/pazuhurekkusu.git",
         reflection: ""
     }
 ]
