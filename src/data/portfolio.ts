@@ -94,7 +94,7 @@ export const profile: Profile ={
     links: {
         github: "https://github.com/",
         twitter: null,
-        gmail: "学校:KTC24A31A0043@edu.kyoto-tech.ac.jp\n自身:nanbujianren@gmail.com",
+        gmail: "KTC24A31A0043@edu.kyoto-tech.ac.jp",
     }
 }
 
