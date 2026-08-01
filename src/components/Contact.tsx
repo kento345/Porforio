@@ -11,7 +11,7 @@ export default function Contact(){
     const links:{ label: string; icon: ReactNode; href: string | null}[] = [
         { label:'Github', icon: <FaGithub />, href: profile.links.github },
         { label:'X (旧Twitter)', icon: <FaXTwitter />, href: profile.links.twitter },
-        { label:'Email', icon: <FaEnvelope />, href: profile.links.gmail },
+        { label:'学校のEmail', icon: <FaEnvelope />, href: profile.links.gmail },
     ]
 
     return(
