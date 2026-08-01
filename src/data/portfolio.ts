@@ -94,7 +94,7 @@ export const profile: Profile ={
     links: {
         github: "https://github.com/",
         twitter: null,
-        gmail: "KTC24A31A0043@edu.kyoto-tech.ac.jp",
+        gmail: "KTC24a31a0043@edu.kyoto-tech.ac.jp",
     }
 }
 
@@ -102,7 +102,7 @@ export const skills: Skill[] =[
     {
         name: "Unity",
         version: null,
-        level: 60,
+        level: 80,
         category: "game",
         capabilities: ["3D/2Dゲーム開発",],
         note: null
@@ -111,7 +111,7 @@ export const skills: Skill[] =[
 
 export const works:Work[] =[
     {
-        id: 1,
+        id: 2,
         title: "未食伝説",
         genre: "2DアクションRPG",
         category: "game",
@@ -120,7 +120,7 @@ export const works:Work[] =[
         description: "",
         tags: ['Unity','C#'],
         platform: ['Windows'],
-        period: "2024年10月~2025年2月",
+        period: "2024年10月~2025年2月(5ヶ月)",
         team: "チーム13名(プランナー３,プログラマー5,デザイナー5)",
         role: "プログラマー",
         github: "https://github.com/kento345/Farst-Goudou",
@@ -133,7 +133,7 @@ export const works:Work[] =[
         performance: null
     },
     {
-        id: 2,
+        id: 3,
         title: "喫茶ぱずふれっくす",
         genre: "3Dパズルアクション",
         category: "game",
@@ -142,7 +142,7 @@ export const works:Work[] =[
         description: "反射させてプレイヤーをゴールに飛ばす",
         tags: ['Unity','C#'],
         platform: ['Windows'],
-        period: "2025年5月～7月",
+        period: "2025年5月～7月(3ヶ月)",
         team: "チーム11名(プランナー2,プログラマー4,デザイナー5)",
         role: "プログラマー",
         github: "https://github.com/Momiji25315/pazuhurekkusu.git",
@@ -155,7 +155,7 @@ export const works:Work[] =[
         performance: null
     },
     {
-        id: 3,
+        id: 4,
         title: "RUMBULE TUMBULE",
         genre: "3Dアクション",
         category: "game",
